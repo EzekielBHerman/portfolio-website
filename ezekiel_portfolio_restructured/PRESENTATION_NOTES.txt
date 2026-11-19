@@ -1,0 +1,61 @@
+EZEKIEL B HERMAN - PERSONAL PORTFOLIO
+=====================================
+
+FILES
+-----
+index.html       Main structure and content of the website.
+style.css        Website colours, layout, spacing and responsive design.
+script.js        Dark mode, mobile menu, photo/CV preview and form actions.
+images/          Profile placeholder and project illustration images.
+
+HOW TO OPEN THE WEBSITE
+-----------------------
+1. Extract the ZIP file.
+2. Open the "ezekiel_portfolio_restructured" folder in Visual Studio Code.
+3. If you have a profile picture, copy it into the images folder and name it:
+   profile.jpg
+4. Open index.html in a web browser, or use the Live Server extension in VS Code.
+5. Add your CV PDF to the main folder and name it RESUME.pdf if you want the
+   Download My CV link to point to your own CV.
+
+IMPORTANT PERSONAL EDITS
+------------------------
+- The education section now says:
+  Professional Diploma in Information Technology (PDIT) – Software Engineering.
+- The project cards include the Liberia Research App, ATM System and Rent
+  Management System based on the projects described in your portfolio and
+  learning work. Keep the descriptions accurate as your projects progress.
+- Replace the sample project links with direct links to each project's own
+  GitHub page when those repositories are ready.
+- The profile picture upload is a browser preview. It does not permanently
+  save the uploaded picture into the website folder. To make it the permanent
+  website picture, copy the image into images/profile.jpg.
+- The contact and payment forms open WhatsApp with a prepared message. They
+  do not process payments or send email directly.
+- Check that your WhatsApp, Telegram, Facebook and GitHub links are correct.
+- Keep testimonials only if they are genuine.
+
+CLASS PRESENTATION NOTES
+------------------------
+1. HTML5 gives the page its structure. Sections, headings, paragraphs, links,
+   forms, images and navigation are written in HTML.
+2. style.css controls the appearance: colours, fonts, spacing, cards, layout
+   and responsive design.
+3. script.js adds the interactive parts, including the dark mode button,
+   mobile navigation, CV preview, copy-number buttons and WhatsApp forms.
+4. CSS Grid is used to arrange project and service cards in columns.
+5. Flexbox is used for navigation, buttons and skill tags.
+6. The viewport meta tag helps the page display correctly on mobile screens.
+7. Image alt text describes images for visitors who cannot see them and for
+   assistive technologies.
+
+BEFORE SUBMISSION
+-----------------
+[ ] Confirm your name and contact information.
+[ ] Add your own profile photo.
+[ ] Add real screenshots of at least three projects if available.
+[ ] Confirm that project links open the correct repositories.
+[ ] Add your CV PDF if you want to provide one.
+[ ] Test the website on a phone and a computer.
+[ ] Test all navigation links and buttons.
+[ ] Be ready to explain the HTML, CSS and JavaScript in class.

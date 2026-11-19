@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ezekiel B Herman, a Software Engineering student at BlueCrest University in Liberia. Explore my skills, projects, services and contact information.">
+    <title>Ezekiel B Herman | Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-inner">
+            <a class="logo" href="#home">EZEKIEL B. HERMAN</a>
+
+            <button class="menu-toggle" id="menuToggle" type="button"
+                    aria-label="Open navigation menu" aria-expanded="false">
+                ☰
+            </button>
+
+            <nav class="main-nav" id="mainNav" aria-label="Main navigation">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#services">Services</a>
+                <a href="#education">Education</a>
+                <a href="#contact">Contact</a>
+                <button class="theme-toggle" id="themeToggle" type="button">🌙 Dark Mode</button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <img class="profile-photo" id="profilePhoto"
+                     src="EZ pick.jpeg"
+                     alt="Profile picture of Ezekiel B Herman">
+
+                <h2>I am a <span id="typing">Software Enginner</span></h2>
+                <h1>Hello, I'm <span>Ezekiel B Herman</span></h1>
+                <p class="hero-intro">
+                    I am studying Software Engineering at BlueCrest University in Liberia.
+                    I enjoy learning how to build useful websites and digital solutions.
+                </p>
+                <p class="location-line">📍 Monrovia, Liberia · Available for freelance work</p>
+
+                <div class="hero-actions">
+                    <a class="button button-green" href="https://wa.me/231888026429" target="_blank" rel="noopener noreferrer">Chat on WhatsApp</a>
+                    <a class="button button-light" href="#projects">View My Projects</a>
+                    <a class="button button-outline" href="#contact">Contact Me</a>
+                </div>
+
+                <div class="photo-upload">
+                    <label for="photoInput" class="button button-muted">📸 Change Profile Photo</label>
+                    <input type="file" id="photoInput" accept="image/*">
+                    <p class="small-note">Choose a photo from your device. It changes the preview on this device.</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="page-container">
+            <section class="quote-box" aria-label="Personal motto">
+                <p>“Don't wait for opportunity. Build it with code.”</p>
+                <span>Ezekiel B Herman</span>
+            </section>
+
+            <section class="content-card" id="about">
+                <div class="section-heading">
+                    <p class="eyebrow">GET TO KNOW ME</p>
+                    <h2>About Me</h2>
+                </div>
+                <p>Hello! My name is <strong>Ezekiel B. Herman</strong>, and I am from Monrovia, Liberia.</p>
+                <p>
+                    I am a Software Engineering student at <strong>BlueCrest University</strong>.
+                    I am developing my knowledge of programming and web development, and I enjoy
+                    using technology to solve everyday problems.
+                </p>
+                <p>
+                    <strong>My career goal:</strong> To become a skilled full-stack developer and
+                    contribute to useful digital solutions for individuals and businesses in Liberia.
+                </p>
+            </section>
+
+            <section class="content-card" id="education">
+                <div class="section-heading">
+                    <p class="eyebrow">MY ACADEMIC BACKGROUND</p>
+                    <h2>Education</h2>
+                </div>
+                <article class="education-item">
+                    <h3>BlueCrest University, Liberia</h3>
+                    <p><strong>Professional Diploma in Information Technology (PDIT) – Software Engineering</strong></p>
+                    <p class="muted-text">Student</p>
+                    <p>Areas of study and interest include programming, web development, databases and problem solving.</p>
+                </article>
+            </section>
+
+            <section class="content-card" id="skills">
+                <div class="section-heading">
+                    <p class="eyebrow">WHAT I AM LEARNING</p>
+                    <h2>My Skills</h2>
+                </div>
+                <p>These are some of the tools and technologies I have been learning and practising:</p>
+                <div class="skills-list">
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                    <span>Java</span>
+                    <span>C Programming</span>
+                    <span>MySQL</span>
+                    <span>JavaScript (Learning)</span>
+                    <span>GitHub</span>
+                    <span>Visual Studio Code</span>
+                    <span>Responsive Web Design</span>
+                    <span>Problem Solving</span>
+                </div>
+            </section>
+
+            <section class="content-card" id="projects">
+                <div class="section-heading">
+                    <p class="eyebrow">MY PRACTICAL WORK</p>
+                    <h2>My Projects</h2>
+                </div>
+                <p class="section-intro">Here are examples of projects I have worked on or am developing as part of my learning journey.</p>
+
+                <div class="project-grid">
+                    <article class="project-card">
+                        <img src="images/project-portfolio.svg" alt="Illustration representing a personal portfolio website">
+                        <div class="project-content">
+                            <h3>Personal Portfolio Website</h3>
+                            <p>A personal website built with HTML, CSS and JavaScript to introduce me, show my skills and share my work.</p>
+                            <span class="project-status">Current portfolio project</span>
+                            <a href="https://github.com/EzekielBHerman" target="_blank" rel="noopener noreferrer">Visit my GitHub →</a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <img src="images/project-research.svg" alt="Illustration representing a research application">
+                        <div class="project-content">
+                            <h3>Liberia Research App</h3>
+                            <p>A student prototype concept for asking questions and receiving information, developed as a learning project.</p>
+                            <span class="project-status">Student prototype</span>
+                            <a href="https://github.com/EzekielBHerman" target="_blank" rel="noopener noreferrer">Visit my GitHub →</a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <img src="images/project-atm.svg" alt="Illustration representing an ATM programming project">
+                        <div class="project-content">
+                            <h3>ATM System</h3>
+                            <p>A C programming practice project covering basic ATM functions such as login, check balance, withdraw, deposits and mini statement.</p>
+                            
+                           
+                        <apan style="background: darkturquoise; padding: 5px 10px;border-radius: 20px; font-size: 13px;">Student Project</apan>
+                        <a href="https://github.com/EzekielBHerman" target="_blank" rel="noopener noreferrer">Visit my GitHub →</a><br>
+                        <a class="btn tin-blue" href="https://wa.me/231888026429?text=Hi%20Ezekiel.%20I%20want%20an%20ATM%20System%20like%20yours"> I want one Like this</a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <img src="images/project-rent.svg" alt="Illustration representing a rent management system">
+                        <div class="project-content">
+                            <h3>Rent Management System</h3>
+                            <p>A Java project in development to organize renter details, record rent payments and prepare payment receipts, see who has paid and who has not paid, and check due dates.</p>
+                            <span class="project-status">management System</span>
+                            <a href="https://github.com/EzekielBHerman" target="_blank" rel="noopener noreferrer">Visit my GitHub →</a>
+                        </div>
+                    </article>
+                </div>
+                <p class="small-note">Replace the GitHub links with direct project links when you upload each project.</p>
+            </section>
+
+            <section class="content-card" id="services">
+                <div class="section-heading">
+                    <p class="eyebrow">HOW I CAN HELP</p>
+                    <h2>My Services</h2>
+                </div>
+                <p>Do you need a simple website? You can contact me to discuss your project.</p>
+                <div class="service-grid">
+                    <article class="service-card">
+                        <h3>🌐 Business Website</h3>
+                        <p>A website for shops, restaurants and small businesses.</p>
+                        <p class="price">From $150</p>
+                        <a class="button button-green" href="https://wa.me/231888026429?text=Hi%20Ezekiel%2C%20I%20want%20to%20discuss%20a%20business%20website." target="_blank" rel="noopener noreferrer">Ask about this service</a>
+                    </article>
+                    <article class="service-card">
+                        <h3>⛪ Church or School Website</h3>
+                        <p>A place to share programmes, events and announcements.</p>
+                        <p class="price">From $200</p>
+                        <a class="button button-green" href="https://wa.me/231888026429?text=Hi%20Ezekiel%2C%20I%20want%20to%20discuss%20a%20church%20or%20school%20website." target="_blank" rel="noopener noreferrer">Ask about this service</a>
+                    </article>
+                    <article class="service-card">
+                        <h3>👤 Personal Portfolio</h3>
+                        <p>A personal website for students and professionals.</p>
+                        <p class="price">From $100</p>
+                        <a class="button button-green" href="https://wa.me/231888026429?text=Hi%20Ezekiel%2C%20I%20want%20to%20discuss%20a%20personal%20portfolio." target="_blank" rel="noopener noreferrer">Ask about this service</a>
+                    </article>
+                </div>
+                <p class="small-note">Prices are the starting prices shown in your original portfolio. Confirm the final price and project details with the client.</p>
+            </section>
+
+            <section class="content-card" id="payment">
+                <div class="section-heading">
+                    <p class="eyebrow">PAYMENT INFORMATION</p>
+                    <h2>Mobile Money Payments</h2>
+                </div>
+                <p>For service payments, use the mobile money details below. After making a payment, contact me and share your transaction confirmation.</p>
+                <div class="payment-grid">
+                    <article class="payment-card orange-card">
+                        <h3>🟠 Orange Money</h3>
+                        <p>Orange Liberia</p>
+                        <p class="payment-number">0760668490</p>
+                        <p>Account name: <strong>Ezekiel B Herman</strong></p>
+                        <button class="button button-orange copy-number" type="button" data-number="0760668490">Copy Number</button>
+                    </article>
+                    <article class="payment-card yellow-card">
+                        <h3>🟡 Lonestar MTN MoMo</h3>
+                        <p>MTN Mobile Money</p>
+                        <p class="payment-number">0888026429</p>
+                        <p>Account name: <strong>Ezekiel B Herman</strong></p>
+                        <button class="button button-yellow copy-number" type="button" data-number="0888026429">Copy Number</button>
+                    </article>
+                </div>
+                <div class="payment-instructions">
+                    <h3>Payment steps</h3>
+                    <ol>
+                        <li>Choose the mobile money service you want to use.</li>
+                        <li>Send the agreed amount to the correct number above.</li>
+                        <li>Keep your transaction confirmation.</li>
+                        <li>Contact me on WhatsApp to confirm your payment.</li>
+                    </ol>
+                </div>
+
+                <form class="simple-form" id="paymentForm">
+                    <h3>Send Payment Details</h3>
+                    <label for="payerName">Your name</label>
+                    <input id="payerName" name="payerName" type="text" placeholder="Enter your name" required>
+                    <label for="payerAmount">Amount paid</label>
+                    <input id="payerAmount" name="payerAmount" type="text" placeholder="Example: $50 or LRD amount" required>
+                    <label for="payerMethod">Payment method</label>
+                    <select id="payerMethod" name="payerMethod" required>
+                        <option value="Orange Money - 0760668490">Orange Money - 0760668490</option>
+                        <option value="Lonestar MTN MoMo - 0888026429">Lonestar MTN MoMo - 0888026429</option>
+                    </select>
+                    <button class="button button-blue" type="submit">Confirm on WhatsApp</button>
+                </form>
+            </section>
+
+            <section class="content-card" id="blog">
+                <div class="section-heading">
+                    <p class="eyebrow">MY PROGRESS</p>
+                    <h2>My Learning Journey</h2>
+                </div>
+                <div class="blog-grid">
+                    <article class="blog-card">
+                        <h3>📚 My Studies at BlueCrest</h3>
+                        <p>I am building my foundation in Software Engineering and learning how technology can be used to solve problems.</p>
+                    </article>
+                    <article class="blog-card">
+                        <h3>💻 Building My First Website</h3>
+                        <p>Working with HTML, CSS and JavaScript has helped me understand how a website is structured and styled.</p>
+                    </article>
+                    <article class="blog-card">
+                        <h3>🇱🇷 Technology in Liberia</h3>
+                        <p>I am interested in how websites and software can help local businesses and communities.</p>
+                    </article>
+                </div>
+            </section>
+
+            <section class="content-card" aria-labelledby="testimonialsTitle">
+                <div class="section-heading">
+                    <p class="eyebrow">FEEDBACK</p>
+                    <h2 id="testimonialsTitle">What People Say</h2>
+                </div>
+                <div class="testimonial-grid">
+                    <blockquote>“Ezekiel is serious about learning. He will be a great developer.”<cite>— Teacher, BlueCrest</cite></blockquote>
+                    <blockquote>“He built a nice website for me quickly. Very hardworking.”<cite>— First Client</cite></blockquote>
+                    <blockquote>“Always asking questions and growing. Proud of him.”<cite>— Friend / Classmate</cite></blockquote>
+                </div>
+                <p class="small-note">Keep testimonials only if they are genuine comments from the people named or described.</p>
+            </section>
+
+            <section class="content-card" id="cv">
+                <div class="section-heading">
+                    <p class="eyebrow">MY DOCUMENT</p>
+                    <h2>My CV / Resume</h2>
+                </div>
+                <p>You can preview a PDF copy of my CV below. Select your CV file from your device to display it in the viewer.</p>
+                <div class="cv-controls">
+                    <label for="cvInput">Choose your CV (PDF)</label>
+                    <input type="file" id="cvInput" accept="application/pdf,.pdf">
+                    <a class="button button-green" id="downloadCV" href="RESUME.pdf" download>Download My CV</a>
+                </div>
+                <div id="cvPreviewBox" class="cv-preview">
+                    <iframe id="cvViewer" title="CV PDF preview" src="about:blank"></iframe>
+                    <p id="noCVText" class="small-note">No CV selected. Add your PDF as <strong>RESUME.pdf</strong> in this folder, or choose it above.</p>
+                </div>
+            </section>
+
+            <section class="content-card" id="contact">
+                <div class="section-heading">
+                    <p class="eyebrow">GET IN TOUCH</p>
+                    <h2>Contact Me</h2>
+                </div>
+                <div class="contact-details">
+                    <p>📱 WhatsApp: <strong>0888026429</strong></p>
+                    <p>📧 Email: <a href="mailto:ezekielherman90@gmail.com">ezekielherman90@gmail.com</a></p>
+                    <p>✈️ Telegram: <a href="https://t.me/boost/zekeoa" target="_blank" rel="noopener noreferrer">Ezekiel B Herman</a></p>
+                    <p>💻 GitHub: <a href="https://github.com/EzekielBHerman" target="_blank" rel="noopener noreferrer">github.com/EzekielBHerman</a></p>
+                    <p>📍 Location: Monrovia, Liberia</p>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://facebook.com/ezekielherman" target="_blank" rel="noopener noreferrer">Facebook</a>
+                    <a href="https://wa.me/231888026429" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+                    <a href="https://t.me/boost/zekeoa" target="_blank" rel="noopener noreferrer">Telegram</a>
+                    <a href="https://github.com/EzekielBHerman" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    <a href="mailto:ezekielherman90@gmail.com">Email</a>
+                </div>
+
+                <form class="simple-form" id="contactForm">
+                    <h3>Send Me a Message</h3>
+                    <label for="contactName">Your name</label>
+                    <input id="contactName" name="contactName" type="text" placeholder="Enter your name" required>
+                    <label for="contactEmail">Your email</label>
+                    <input id="contactEmail" name="contactEmail" type="email" placeholder="Enter your email" required>
+                    <label for="contactMessage">Your message</label>
+                    <textarea id="contactMessage" name="contactMessage" rows="5" placeholder="Write your message here" required></textarea>
+                    <button class="button button-blue" type="submit">Send Message via WhatsApp</button>
+                    <a class="button button-telegram" href="https://t.me/boost/zekeoa" target="_blank" rel="noopener noreferrer">Message Me on Telegram</a>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <p>© 2026 Ezekiel B. Herman. All rights reserved.</p>
+        <p>Built with HTML, CSS and JavaScript · Monrovia, Liberia</p>
+        <p><a href="https://github.com/EzekielBHerman" target="_blank" rel="noopener noreferrer">GitHub</a> · <a href="https://wa.me/231888026429" target="_blank" rel="noopener noreferrer">WhatsApp</a> · <a href="https://t.me/boost/zekeoa" target="_blank" rel="noopener noreferrer">Telegram</a></p>
+    </footer>
+
+    <a class="floating-whatsapp" href="https://wa.me/231888026429?text=Hi%20Ezekiel%2C%20I%20visited%20your%20portfolio." target="_blank" rel="noopener noreferrer" aria-label="Chat with Ezekiel on WhatsApp">W</a>
+    <button class="back-to-top" id="backTop" type="button" aria-label="Back to top">↑</button>
+</body>
+</html>
